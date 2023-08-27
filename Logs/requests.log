@@ -1,0 +1,12 @@
+08/22/2023 10:17:28 PM ASGI Framework Lifespan error, continuing without Lifespan support lifespan.py lifespan /home/m0xx8/anaconda3/envs/ml/lib/python3.6/site-packages/hypercorn/asyncio/lifespan.py
+08/22/2023 10:17:31 PM 127.0.0.1:36270 GET /about/ 1.1 200 232 36470 logging.py logging /home/m0xx8/anaconda3/envs/ml/lib/python3.6/site-packages/hypercorn/logging.py
+08/22/2023 10:17:31 PM 127.0.0.1:36270 GET /about/ 1.1 200 232 5791 logging.py logging /home/m0xx8/anaconda3/envs/ml/lib/python3.6/site-packages/hypercorn/logging.py
+08/22/2023 10:17:31 PM 127.0.0.1:36270 GET /about/ 1.1 200 232 3752 logging.py logging /home/m0xx8/anaconda3/envs/ml/lib/python3.6/site-packages/hypercorn/logging.py
+08/22/2023 10:17:31 PM 127.0.0.1:36270 GET /about/ 1.1 200 232 4748 logging.py logging /home/m0xx8/anaconda3/envs/ml/lib/python3.6/site-packages/hypercorn/logging.py
+08/22/2023 10:17:53 PM 127.0.0.1:36526 GET /about/ 1.1 200 232 4589 logging.py logging /home/m0xx8/anaconda3/envs/ml/lib/python3.6/site-packages/hypercorn/logging.py
+08/22/2023 10:18:09 PM 127.0.0.1:43648 GET / 1.1 200 549 17199 logging.py logging /home/m0xx8/anaconda3/envs/ml/lib/python3.6/site-packages/hypercorn/logging.py
+08/22/2023 10:18:14 PM ASGI Framework Lifespan error, continuing without Lifespan support lifespan.py lifespan /home/m0xx8/anaconda3/envs/ml/lib/python3.6/site-packages/hypercorn/asyncio/lifespan.py
+08/27/2023 05:47:10 PM ASGI Framework Lifespan error, continuing without Lifespan support lifespan.py lifespan /home/m0xx8/anaconda3/envs/ml/lib/python3.6/site-packages/hypercorn/asyncio/lifespan.py
+08/27/2023 05:47:18 PM 127.0.0.1:48674 GET / 1.1 200 549 53486 logging.py logging /home/m0xx8/anaconda3/envs/ml/lib/python3.6/site-packages/hypercorn/logging.py
+08/27/2023 05:47:18 PM 127.0.0.1:48674 GET /favicon.ico 1.1 404 103 3203 logging.py logging /home/m0xx8/anaconda3/envs/ml/lib/python3.6/site-packages/hypercorn/logging.py
+08/27/2023 05:47:28 PM ASGI Framework Lifespan error, continuing without Lifespan support lifespan.py lifespan /home/m0xx8/anaconda3/envs/ml/lib/python3.6/site-packages/hypercorn/asyncio/lifespan.py
