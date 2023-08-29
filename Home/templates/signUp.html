@@ -15,20 +15,20 @@
     <div class="signUpDiv">
         <form action="" class="formDiv">
             <div class="headerDiv">
-                <h3> Sign In </h3> 
+                <h3> Sign Up </h3> 
                 <p> Stay up to date on your professional world </p>
             </div>
 
             <div>
-                <input type="text" name="" placeholder="Fullname"id="" class="fullnameForm">
+                <input type="text" name="" placeholder="Fullname" id="fullname" class="fullnameForm">
             </div>
 
             <div>
-                <input type="email" name="" id="" placeholder="Email address" class="emailForm">
+                <input type="email" name="" id="email" placeholder="Email address" class="emailForm">
             </div>
 
             <div>
-                <input type="password" placeholder="Password" class="passwordForm">
+                <input type="password" id="password" placeholder="Password" class="passwordForm">
             </div>
 
             <div class="forgotPassDiv">
@@ -38,12 +38,14 @@
             </div>
 
             <div>
-                <button class="signInBtn"> Sign In </button>
+                <button class="signInBtn" id="signInBtn" > Sign Up </button>
             </div>
 
         </form>
 
     </div>
     
+    <!-- Adding the javascript -->
+    <script src="{{ url_for('.static', filename='js/home.js') }}"></script>
 </body>
 </html>

@@ -22,6 +22,8 @@ body {
     margin-bottom: 17px;
     color: black;
     padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #caadad; 
 }
 .signInBtn {
     height: 40px;
