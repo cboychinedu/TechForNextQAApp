@@ -10,3 +10,255 @@
 08/27/2023 05:47:18 PM 127.0.0.1:48674 GET / 1.1 200 549 53486 logging.py logging /home/m0xx8/anaconda3/envs/ml/lib/python3.6/site-packages/hypercorn/logging.py
 08/27/2023 05:47:18 PM 127.0.0.1:48674 GET /favicon.ico 1.1 404 103 3203 logging.py logging /home/m0xx8/anaconda3/envs/ml/lib/python3.6/site-packages/hypercorn/logging.py
 08/27/2023 05:47:28 PM ASGI Framework Lifespan error, continuing without Lifespan support lifespan.py lifespan /home/m0xx8/anaconda3/envs/ml/lib/python3.6/site-packages/hypercorn/asyncio/lifespan.py
+08/29/2023 01:20:47 PM ASGI Framework Lifespan error, continuing without Lifespan support lifespan.py lifespan /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/asyncio/lifespan.py
+08/29/2023 01:21:05 PM 127.0.0.1:38504 GET / 1.1 200 549 22700 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:21:05 PM 127.0.0.1:38504 GET /favicon.ico 1.1 404 103 1291 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:24:49 PM 127.0.0.1:59474 GET / 1.1 200 613 8003 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:25:23 PM 127.0.0.1:52894 GET / 1.1 200 613 1719 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:25:25 PM 127.0.0.1:52908 GET / 1.1 200 613 1813 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:25:25 PM 127.0.0.1:52908 GET /favicon.ico 1.1 404 103 1584 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:26:38 PM 127.0.0.1:38750 GET / 1.1 200 612 4495 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:26:38 PM 127.0.0.1:38750 GET /static/css/home.css 1.1 404 103 2395 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:27:15 PM 127.0.0.1:46300 GET / 1.1 200 611 3408 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:27:15 PM 127.0.0.1:46300 GET /static/css/home.css 1.1 404 103 1998 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:27:15 PM 127.0.0.1:46306 GET /static/images/img.jpg 1.1 404 103 1185 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:28:06 PM 127.0.0.1:59548 GET / 1.1 200 612 5218 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:28:06 PM 127.0.0.1:59548 GET /static/images/img.jpg 1.1 404 103 2097 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:28:12 PM 127.0.0.1:34700 GET / 1.1 200 612 2909 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:28:12 PM 127.0.0.1:34700 GET /static/images/img.jpg 1.1 404 103 2239 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:28:37 PM 127.0.0.1:46962 GET / 1.1 200 611 4371 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:28:37 PM 127.0.0.1:46962 GET /static/images/img.jpg 1.1 404 103 2198 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:28:37 PM 127.0.0.1:46970 GET /static/js/home.js 1.1 404 103 2119 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:29:34 PM ASGI Framework Lifespan error, continuing without Lifespan support lifespan.py lifespan /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/asyncio/lifespan.py
+08/29/2023 01:29:39 PM ASGI Framework Lifespan error, continuing without Lifespan support lifespan.py lifespan /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/asyncio/lifespan.py
+08/29/2023 01:29:47 PM Exception on request GET / app.py app /home/vitaminx/anaconda3/lib/python3.6/site-packages/quart/app.py
+Traceback (most recent call last):
+  File "/home/vitaminx/anaconda3/lib/python3.6/site-packages/quart/app.py", line 1451, in handle_request
+    return await self.full_dispatch_request(request_context)
+  File "/home/vitaminx/anaconda3/lib/python3.6/site-packages/quart/app.py", line 1473, in full_dispatch_request
+    result = await self.handle_user_exception(error)
+  File "/home/vitaminx/anaconda3/lib/python3.6/site-packages/quart/app.py", line 892, in handle_user_exception
+    raise error
+  File "/home/vitaminx/anaconda3/lib/python3.6/site-packages/quart/app.py", line 1471, in full_dispatch_request
+    result = await self.dispatch_request(request_context)
+  File "/home/vitaminx/anaconda3/lib/python3.6/site-packages/quart/app.py", line 1519, in dispatch_request
+    return await handler(**request_.view_args)
+  File "/home/vitaminx/Documents/TechForNextQAApp/Home/routes.py", line 17, in HomePage
+    return await render_template('home.html');
+  File "/home/vitaminx/anaconda3/lib/python3.6/site-packages/quart/templating.py", line 78, in render_template
+    return await _render(template, context)
+  File "/home/vitaminx/anaconda3/lib/python3.6/site-packages/quart/templating.py", line 96, in _render
+    rendered_template = await template.render_async(context)  # type: ignore
+  File "/home/vitaminx/anaconda3/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 70, in render_async
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/vitaminx/anaconda3/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/vitaminx/anaconda3/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/vitaminx/anaconda3/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 27, in concat_async
+    await collect()
+  File "/home/vitaminx/anaconda3/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 25, in collect
+    async for event in async_gen:
+  File "/home/vitaminx/Documents/TechForNextQAApp/Home/templates/home.html", line 23, in top-level template code
+    <img src="{{ url_for('static', filename='images/img.jpg')}}" class="imageClass" alt="" srcset="">
+  File "/home/vitaminx/anaconda3/lib/python3.6/site-packages/quart/helpers.py", line 167, in url_for
+    return app_context.app.handle_url_build_error(error, endpoint, values)
+  File "/home/vitaminx/anaconda3/lib/python3.6/site-packages/quart/app.py", line 842, in handle_url_build_error
+    raise error
+  File "/home/vitaminx/anaconda3/lib/python3.6/site-packages/quart/helpers.py", line 164, in url_for
+    endpoint, values, method=_method, scheme=_scheme, external=_external,
+  File "/home/vitaminx/anaconda3/lib/python3.6/site-packages/quart/routing.py", line 253, in build
+    raise BuildError(endpoint, rules, values, method)
+quart.routing.BuildError: Could not build rule for endpoint 'static'. No endpoint found.
+08/29/2023 01:29:47 PM 127.0.0.1:47522 GET / 1.1 500 126 14482 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:30:11 PM ASGI Framework Lifespan error, continuing without Lifespan support lifespan.py lifespan /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/asyncio/lifespan.py
+08/29/2023 01:30:12 PM ASGI Framework Lifespan error, continuing without Lifespan support lifespan.py lifespan /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/asyncio/lifespan.py
+08/29/2023 01:30:15 PM 127.0.0.1:44668 GET / 1.1 200 611 8883 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:30:16 PM 127.0.0.1:44668 GET /static/images/img.jpg 1.1 404 103 2161 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:30:16 PM 127.0.0.1:44672 GET /static/js/home.js 1.1 404 103 1915 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:30:21 PM 127.0.0.1:49274 GET /static/js/home.js 1.1 404 103 1888 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:32:03 PM 127.0.0.1:56460 GET / 1.1 200 611 2763 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:32:03 PM 127.0.0.1:56460 GET /static/images/img.jpg 1.1 404 103 5500 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:32:03 PM 127.0.0.1:56474 GET /static/js/home.js 1.1 404 103 1801 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:32:15 PM 127.0.0.1:55322 GET / 1.1 200 610 6754 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:32:15 PM 127.0.0.1:55322 GET /static/images/img.jpg 1.1 404 103 2141 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:32:15 PM 127.0.0.1:55324 GET /static/js/home.js 1.1 404 103 1808 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:32:15 PM 127.0.0.1:55336 GET /static/css/home.css 1.1 404 103 3654 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:32:31 PM 127.0.0.1:52706 GET / 1.1 200 615 6442 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:32:31 PM 127.0.0.1:52706 GET /static/Home/css/home.css 1.1 404 103 2467 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:32:31 PM 127.0.0.1:52716 GET /static/js/home.js 1.1 404 103 3410 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:32:31 PM 127.0.0.1:52716 GET /static/images/img.jpg 1.1 404 103 5765 logging.py logging /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/logging.py
+08/29/2023 01:36:51 PM ASGI Framework Lifespan error, continuing without Lifespan support lifespan.py lifespan /home/vitaminx/anaconda3/lib/python3.6/site-packages/hypercorn/asyncio/lifespan.py
+08/29/2023 01:38:00 PM  * Running on http://localhost:5001/ (Press CTRL+C to quit) _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:00 PM  * Restarting with stat _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:00 PM  * Debugger is active! _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:01 PM  * Debugger PIN: 331-536-951 _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:06 PM 127.0.0.1 - - [29/Aug/2023 13:38:06] "GET / HTTP/1.1" 500 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:06 PM 127.0.0.1 - - [29/Aug/2023 13:38:06] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:06 PM 127.0.0.1 - - [29/Aug/2023 13:38:06] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:06 PM 127.0.0.1 - - [29/Aug/2023 13:38:06] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:07 PM 127.0.0.1 - - [29/Aug/2023 13:38:07] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:07 PM 127.0.0.1 - - [29/Aug/2023 13:38:07] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:31 PM  * Detected change in '/home/vitaminx/Documents/TechForNextQAApp/Home/routes.py', reloading _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:31 PM  * Restarting with stat _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:31 PM  * Debugger is active! _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:31 PM  * Debugger PIN: 331-536-951 _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:34 PM 127.0.0.1 - - [29/Aug/2023 13:38:34] "GET / HTTP/1.1" 500 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:34 PM 127.0.0.1 - - [29/Aug/2023 13:38:34] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:34 PM 127.0.0.1 - - [29/Aug/2023 13:38:34] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:34 PM 127.0.0.1 - - [29/Aug/2023 13:38:34] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:34 PM 127.0.0.1 - - [29/Aug/2023 13:38:34] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:38 PM  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:38 PM  * Restarting with stat _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:39 PM  * Running on http://localhost:5001/ (Press CTRL+C to quit) _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:39 PM  * Restarting with stat _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:39 PM  * Debugger is active! _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:39 PM  * Debugger PIN: 331-536-951 _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:41 PM 127.0.0.1 - - [29/Aug/2023 13:38:41] "GET / HTTP/1.1" 500 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:41 PM 127.0.0.1 - - [29/Aug/2023 13:38:41] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:41 PM 127.0.0.1 - - [29/Aug/2023 13:38:41] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:41 PM 127.0.0.1 - - [29/Aug/2023 13:38:41] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:38:41 PM 127.0.0.1 - - [29/Aug/2023 13:38:41] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:39:14 PM  * Detected change in '/home/vitaminx/Documents/TechForNextQAApp/app.py', reloading _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:39:14 PM  * Restarting with stat _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:39:14 PM  * Debugger is active! _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:39:14 PM  * Debugger PIN: 331-536-951 _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:39:16 PM 127.0.0.1 - - [29/Aug/2023 13:39:16] "GET / HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:39:16 PM 127.0.0.1 - - [29/Aug/2023 13:39:16] "GET /static/css/home.css HTTP/1.1" 404 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:39:16 PM 127.0.0.1 - - [29/Aug/2023 13:39:16] "GET /static/js/home.js HTTP/1.1" 404 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:39:16 PM 127.0.0.1 - - [29/Aug/2023 13:39:16] "GET /static/images/img.jpg HTTP/1.1" 404 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:39:18 PM 127.0.0.1 - - [29/Aug/2023 13:39:18] "GET / HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:39:18 PM 127.0.0.1 - - [29/Aug/2023 13:39:18] "GET /static/css/home.css HTTP/1.1" 404 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:39:18 PM 127.0.0.1 - - [29/Aug/2023 13:39:18] "GET /static/js/home.js HTTP/1.1" 404 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:39:18 PM 127.0.0.1 - - [29/Aug/2023 13:39:18] "GET /static/images/img.jpg HTTP/1.1" 404 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:40:04 PM  * Detected change in '/home/vitaminx/Documents/TechForNextQAApp/app.py', reloading _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:40:04 PM  * Restarting with stat _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:40:04 PM  * Debugger is active! _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:40:04 PM  * Debugger PIN: 331-536-951 _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:40:05 PM  * Detected change in '/home/vitaminx/Documents/TechForNextQAApp/app.py', reloading _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:40:05 PM  * Restarting with stat _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:40:05 PM  * Debugger is active! _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:40:05 PM  * Debugger PIN: 331-536-951 _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:40:07 PM  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:40:07 PM  * Restarting with stat _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:40:09 PM  * Running on http://localhost:5001/ (Press CTRL+C to quit) _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:40:09 PM  * Restarting with stat _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:40:09 PM  * Debugger is active! _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:40:09 PM  * Debugger PIN: 331-536-951 _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:40:14 PM 127.0.0.1 - - [29/Aug/2023 13:40:14] "GET / HTTP/1.1" 500 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:40:14 PM 127.0.0.1 - - [29/Aug/2023 13:40:14] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:40:14 PM 127.0.0.1 - - [29/Aug/2023 13:40:14] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:40:14 PM 127.0.0.1 - - [29/Aug/2023 13:40:14] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:40:14 PM 127.0.0.1 - - [29/Aug/2023 13:40:14] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:40:45 PM 127.0.0.1 - - [29/Aug/2023 13:40:45] "GET / HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:40:45 PM 127.0.0.1 - - [29/Aug/2023 13:40:45] "GET /static/css/home.css HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:40:45 PM 127.0.0.1 - - [29/Aug/2023 13:40:45] "GET /static/js/home.js HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:40:45 PM 127.0.0.1 - - [29/Aug/2023 13:40:45] "GET /static/images/img.jpg HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:42:08 PM 127.0.0.1 - - [29/Aug/2023 13:42:08] "GET / HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:42:08 PM 127.0.0.1 - - [29/Aug/2023 13:42:08] "GET /static/css/home.css HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:42:08 PM 127.0.0.1 - - [29/Aug/2023 13:42:08] "GET /static/js/home.js HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:42:20 PM 127.0.0.1 - - [29/Aug/2023 13:42:20] "GET / HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:42:20 PM 127.0.0.1 - - [29/Aug/2023 13:42:20] "GET /static/css/home.css HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:42:20 PM 127.0.0.1 - - [29/Aug/2023 13:42:20] "GET /static/js/home.js HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:43:47 PM 127.0.0.1 - - [29/Aug/2023 13:43:47] "GET / HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:43:47 PM 127.0.0.1 - - [29/Aug/2023 13:43:47] "GET /static/css/home.css HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:43:47 PM 127.0.0.1 - - [29/Aug/2023 13:43:47] "GET /static/js/home.js HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:46:33 PM 127.0.0.1 - - [29/Aug/2023 13:46:33] "GET / HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:46:33 PM 127.0.0.1 - - [29/Aug/2023 13:46:33] "GET /static/css/home.css HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:46:33 PM 127.0.0.1 - - [29/Aug/2023 13:46:33] "GET /static/js/home.js HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:48:54 PM 127.0.0.1 - - [29/Aug/2023 13:48:54] "GET / HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:48:54 PM 127.0.0.1 - - [29/Aug/2023 13:48:54] "GET /static/js/home.js HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:48:54 PM 127.0.0.1 - - [29/Aug/2023 13:48:54] "GET /static/css/home.css HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:49:27 PM 127.0.0.1 - - [29/Aug/2023 13:49:27] "GET / HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:49:27 PM 127.0.0.1 - - [29/Aug/2023 13:49:27] "GET /static/css/home.css HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:49:27 PM 127.0.0.1 - - [29/Aug/2023 13:49:27] "GET /static/js/home.js HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:49:35 PM 127.0.0.1 - - [29/Aug/2023 13:49:35] "GET / HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:49:35 PM 127.0.0.1 - - [29/Aug/2023 13:49:35] "GET /static/css/home.css HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:49:35 PM 127.0.0.1 - - [29/Aug/2023 13:49:35] "GET /static/js/home.js HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:51:23 PM 127.0.0.1 - - [29/Aug/2023 13:51:23] "GET / HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:51:23 PM 127.0.0.1 - - [29/Aug/2023 13:51:23] "GET /static/css/home.css HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:51:23 PM 127.0.0.1 - - [29/Aug/2023 13:51:23] "GET /static/js/home.js HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:51:41 PM 127.0.0.1 - - [29/Aug/2023 13:51:41] "GET / HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:51:41 PM 127.0.0.1 - - [29/Aug/2023 13:51:41] "GET /static/css/home.css HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:51:41 PM 127.0.0.1 - - [29/Aug/2023 13:51:41] "GET /static/js/home.js HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:53:44 PM 127.0.0.1 - - [29/Aug/2023 13:53:44] "GET / HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:53:44 PM 127.0.0.1 - - [29/Aug/2023 13:53:44] "GET /static/css/home.css HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:53:44 PM 127.0.0.1 - - [29/Aug/2023 13:53:44] "GET /static/js/home.js HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:55:46 PM 127.0.0.1 - - [29/Aug/2023 13:55:46] "GET / HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:55:46 PM 127.0.0.1 - - [29/Aug/2023 13:55:46] "GET /static/css/home.css HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:55:46 PM 127.0.0.1 - - [29/Aug/2023 13:55:46] "GET /static/js/home.js HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:56:50 PM 127.0.0.1 - - [29/Aug/2023 13:56:50] "GET / HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:56:50 PM 127.0.0.1 - - [29/Aug/2023 13:56:50] "GET /static/css/home.css HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:56:50 PM 127.0.0.1 - - [29/Aug/2023 13:56:50] "GET /static/js/home.js HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:58:02 PM 127.0.0.1 - - [29/Aug/2023 13:58:02] "GET / HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:58:02 PM 127.0.0.1 - - [29/Aug/2023 13:58:02] "GET /static/css/home.css HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:58:02 PM 127.0.0.1 - - [29/Aug/2023 13:58:02] "GET /static/js/home.js HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:58:36 PM 127.0.0.1 - - [29/Aug/2023 13:58:36] "GET / HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:58:36 PM 127.0.0.1 - - [29/Aug/2023 13:58:36] "GET /static/js/home.js HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:58:36 PM 127.0.0.1 - - [29/Aug/2023 13:58:36] "GET /static/css/home.css HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:59:22 PM 127.0.0.1 - - [29/Aug/2023 13:59:22] "GET / HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:59:22 PM 127.0.0.1 - - [29/Aug/2023 13:59:22] "GET /static/css/home.css HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 01:59:22 PM 127.0.0.1 - - [29/Aug/2023 13:59:22] "GET /static/js/home.js HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:00:20 PM 127.0.0.1 - - [29/Aug/2023 14:00:20] "GET / HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:00:20 PM 127.0.0.1 - - [29/Aug/2023 14:00:20] "GET /static/css/home.css HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:00:20 PM 127.0.0.1 - - [29/Aug/2023 14:00:20] "GET /static/js/home.js HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:00:56 PM 127.0.0.1 - - [29/Aug/2023 14:00:56] "GET / HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:00:56 PM 127.0.0.1 - - [29/Aug/2023 14:00:56] "GET /static/css/home.css HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:00:56 PM 127.0.0.1 - - [29/Aug/2023 14:00:56] "GET /static/js/home.js HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:05:38 PM  * Detected change in '/home/vitaminx/Documents/TechForNextQAApp/Home/routes.py', reloading _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:05:38 PM  * Restarting with stat _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:05:39 PM  * Debugger is active! _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:05:39 PM  * Debugger PIN: 331-536-951 _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:10:20 PM 127.0.0.1 - - [29/Aug/2023 14:10:20] "GET / HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:10:20 PM 127.0.0.1 - - [29/Aug/2023 14:10:20] "GET /static/css/home.css HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:10:20 PM 127.0.0.1 - - [29/Aug/2023 14:10:20] "GET /static/js/home.js HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:10:22 PM 127.0.0.1 - - [29/Aug/2023 14:10:22] "GET /register HTTP/1.1" 404 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:10:55 PM 127.0.0.1 - - [29/Aug/2023 14:10:55] "GET / HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:10:55 PM 127.0.0.1 - - [29/Aug/2023 14:10:55] "GET /static/js/home.js HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:10:55 PM 127.0.0.1 - - [29/Aug/2023 14:10:55] "GET /static/css/home.css HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:10:57 PM 127.0.0.1 - - [29/Aug/2023 14:10:57] "GET /signUp HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:10:57 PM 127.0.0.1 - - [29/Aug/2023 14:10:57] "GET /static/css/home.css HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:12:31 PM 127.0.0.1 - - [29/Aug/2023 14:12:31] "GET /signUp HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:12:31 PM 127.0.0.1 - - [29/Aug/2023 14:12:31] "GET /static/css/home.css HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:12:33 PM 127.0.0.1 - - [29/Aug/2023 14:12:33] "GET /signUp HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:12:33 PM 127.0.0.1 - - [29/Aug/2023 14:12:33] "GET /static/css/home.css HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:12:50 PM 127.0.0.1 - - [29/Aug/2023 14:12:50] "GET /signUp HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:12:50 PM 127.0.0.1 - - [29/Aug/2023 14:12:50] "GET /static/css/signup.css HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:13:09 PM 127.0.0.1 - - [29/Aug/2023 14:13:09] "GET /signUp HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:13:09 PM 127.0.0.1 - - [29/Aug/2023 14:13:09] "GET /static/css/signup.css HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:13:29 PM 127.0.0.1 - - [29/Aug/2023 14:13:29] "GET /signUp HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:13:29 PM 127.0.0.1 - - [29/Aug/2023 14:13:29] "GET /static/css/signup.css HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:14:12 PM 127.0.0.1 - - [29/Aug/2023 14:14:12] "GET /signUp HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:14:12 PM 127.0.0.1 - - [29/Aug/2023 14:14:12] "GET /static/css/signup.css HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:14:38 PM 127.0.0.1 - - [29/Aug/2023 14:14:38] "GET /signUp HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:14:38 PM 127.0.0.1 - - [29/Aug/2023 14:14:38] "GET /static/css/signup.css HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:15:05 PM 127.0.0.1 - - [29/Aug/2023 14:15:05] "GET /signUp HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:15:05 PM 127.0.0.1 - - [29/Aug/2023 14:15:05] "GET /static/css/signup.css HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:15:28 PM 127.0.0.1 - - [29/Aug/2023 14:15:28] "GET /signUp HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:15:28 PM 127.0.0.1 - - [29/Aug/2023 14:15:28] "GET /static/css/signup.css HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:15:30 PM 127.0.0.1 - - [29/Aug/2023 14:15:30] "GET / HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:15:30 PM 127.0.0.1 - - [29/Aug/2023 14:15:30] "GET /static/js/home.js HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:15:30 PM 127.0.0.1 - - [29/Aug/2023 14:15:30] "GET /static/css/home.css HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:15:32 PM 127.0.0.1 - - [29/Aug/2023 14:15:32] "GET /signUp HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:15:32 PM 127.0.0.1 - - [29/Aug/2023 14:15:32] "GET /static/css/signup.css HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:17:36 PM 127.0.0.1 - - [29/Aug/2023 14:17:36] "GET /signUp HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:17:36 PM 127.0.0.1 - - [29/Aug/2023 14:17:36] "GET /static/css/signup.css HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:17:50 PM  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:17:50 PM  * Restarting with stat _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:17:50 PM  * Debugger is active! _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:17:50 PM  * Debugger PIN: 331-536-951 _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:17:56 PM  * Running on http://localhost:5001/ (Press CTRL+C to quit) _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:17:56 PM  * Restarting with stat _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:17:56 PM  * Debugger is active! _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:17:56 PM  * Debugger PIN: 331-536-951 _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:18:00 PM 127.0.0.1 - - [29/Aug/2023 14:18:00] "GET /signUp HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:18:00 PM 127.0.0.1 - - [29/Aug/2023 14:18:00] "GET /static/css/signup.css HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:18:07 PM 127.0.0.1 - - [29/Aug/2023 14:18:07] "GET / HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:18:07 PM 127.0.0.1 - - [29/Aug/2023 14:18:07] "GET /static/css/home.css HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:18:07 PM 127.0.0.1 - - [29/Aug/2023 14:18:07] "GET /static/js/home.js HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:18:11 PM 127.0.0.1 - - [29/Aug/2023 14:18:11] "GET /signUp HTTP/1.1" 200 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:18:11 PM 127.0.0.1 - - [29/Aug/2023 14:18:11] "GET /static/css/signup.css HTTP/1.1" 304 - _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:18:20 PM  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:18:20 PM  * Restarting with stat _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:18:20 PM  * Debugger is active! _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py
+08/29/2023 02:18:20 PM  * Debugger PIN: 331-536-951 _internal.py _internal /home/vitaminx/anaconda3/lib/python3.6/site-packages/werkzeug/_internal.py

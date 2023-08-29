@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link rel="stylesheet" href="{{ url_for('.static', filename='css/home.css') }}">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('.static', filename='css/signup.css') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Sign In </title>
+    <title> Sign Up </title>
 </head>
 <body>
     <div class="navbarDiv">
 
     </div>
 
-    <div class="signInDiv">
+    <div class="signUpDiv">
         <form action="" class="formDiv">
             <div class="headerDiv">
                 <h3> Sign In </h3> 
                 <p> Stay up to date on your professional world </p>
+            </div>
+
+            <div>
+                <input type="text" name="" placeholder="Fullname"id="" class="fullnameForm">
             </div>
 
             <div>
@@ -30,7 +34,7 @@
             <div class="forgotPassDiv">
                 <a href="#"> Forgot password ?</a>
 
-                <a href="/signUp"> Sign Up Here </a>
+                <a href="/"> Sign In here </a>
             </div>
 
             <div>
@@ -40,10 +44,6 @@
         </form>
 
     </div>
-
-
-
-    <!-- Adding javascript -->
-    <script src="{{ url_for('.static', filename='js/home.js') }}"></script>
+    
 </body>
 </html>

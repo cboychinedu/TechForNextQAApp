@@ -3,22 +3,20 @@
 # Importing the necessary modules
 import os
 import logging
-from quart import Quart, url_for, session
-from quart_cors import cors
+from flask import Flask, url_for, session
+from flask_cors import CORS
 from datetime import timedelta
 
 # Importing the views
 from Home.routes import home
 
 # Creating the flask application
-app = Quart(__name__)
+app = Flask(__name__, static_folder=None, template_folder=None)
 app.config["TEMPLATES_AUTO_RELOAD"] = True
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 app.secret_key = "kdsd8*DEKFE!@$#$$REDKDNI*(KEHE&E&^"
 app.permanent_session_lifetime = timedelta(days=24)
 
-# Setting the cors application
-app = cors(app, allow_origin="*")
 
 # # Logging the configurations to a file on disk
 logging.basicConfig(filename="Logs/requests.log", level=logging.DEBUG,

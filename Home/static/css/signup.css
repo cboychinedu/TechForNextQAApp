@@ -1,19 +1,6 @@
 body {
     font-family: 'Poppins';   
 }
-/* .color {
-    color: white; 
-} */
-.imageClass {
-    height: 200px;
-    width: 200px; 
-    border: 2px solid green; 
-}
-.signInDiv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .formDiv {
     margin-top: 5em;
     height: fit-content;
@@ -22,18 +9,19 @@ body {
     border: 1px solid #dbdbdb;
     margin-bottom: 5em; 
 }
+.signUpDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .emailForm, 
-.passwordForm {
+.passwordForm, 
+.fullnameForm {
     height: 39px;
     width: 100%;
     margin-bottom: 17px;
     color: black;
     padding-left: 10px;
-}
-.forgotPassDiv {
-    width: 103%;
-    display: flex;
-    justify-content: space-between;
 }
 .signInBtn {
     height: 40px;
@@ -45,4 +33,9 @@ body {
     font-weight: bold;
     border-radius: 5px;
     border: none;
+}
+.forgotPassDiv {
+    width: 103%;
+    display: flex; 
+    justify-content: space-between;
 }
